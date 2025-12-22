@@ -1,6 +1,8 @@
 '''List:
 When you check an element in a list, Python looks at each item one by one until it finds the value.
-If the list is large, this takes more time.'''
+If the list is large, this takes more time.
+Method used: Linear search
+Time Complexity: O(n)'''
 
 numbers_list = [10, 20, 30, 40, 50]
 

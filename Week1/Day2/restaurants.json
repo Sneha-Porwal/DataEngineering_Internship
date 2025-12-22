@@ -1,0 +1,6 @@
+{
+  "restaurants": [
+    {"id": 1, "name": "Food Plaza"},
+    {"id": 2, "name": "Burger Hub"}
+  ]
+}

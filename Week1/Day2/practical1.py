@@ -2,25 +2,29 @@ import csv
 import json
 
 class DataExtractor:
-
     def read_csv(self, file_path):
-        with open(file_path, newline='') as f:
-            reader = csv.reader(f)
-            header = next(reader)
-            data = []
-
+        data = []
+        with open(file_path, mode='r') as file:
+            reader = csv.DictReader(file)
             for row in reader:
                 data.append(row)
-
-        return header, data
+        return data
 
     def read_json(self, file_path):
-        with open(file_path) as f:
-            return json.load(f)
+        with open(file_path, mode='r') as file:
+            data = json.load(file)
+        return data
 
 
-# Example usage
+# Object creation
 extractor = DataExtractor()
-header, data = extractor.read_csv("restaurants.csv")
-print(header)
-print(data[0])
+
+# Correct file names
+csv_data = extractor.read_csv("restaurants.csv")
+json_data = extractor.read_json("restaurants.json")
+
+print("CSV Data:")
+print(csv_data)
+
+print("\nJSON Data:")
+print(json_data)
