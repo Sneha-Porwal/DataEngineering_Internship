@@ -1,15 +1,15 @@
 import requests
 
-username = "Sneha-Porwal"
-repo_name = "BloodManagement"
+url = "https://restcountries.com/v3.1/name/india"
 
-url = f"https://api.github.com/repos/{username}/{repo_name}/languages"
+params = {
+    "fields": "name,population,region"
+}
 
-response = requests.get(url)
+response = requests.get(url, params=params)
 
 if response.status_code == 200:
-    languages = response.json()
-    for lang, bytes in languages.items():
-        print(lang, ":", bytes)
+    data = response.json()
+    print(data)
 else:
     print("Error:", response.status_code)
