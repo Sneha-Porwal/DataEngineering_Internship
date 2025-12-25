@@ -15,6 +15,8 @@ df2 = pd.DataFrame({
 result = pd.merge(df1, df2, on="id", how="inner")
 print(result)
 print('\n')
+
+
 print('''2. join()
 join() is used to combine DataFrames using their index.
 By default, it performs a left join and has a simpler syntax. ''')

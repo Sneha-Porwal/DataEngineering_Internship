@@ -1,6 +1,242 @@
-{
-  "restaurants": [
-    {"id": 1, "name": "Food Plaza"},
-    {"id": 2, "name": "Burger Hub"}
-  ]
-}
+[
+    {
+        "restaurant_id":1,
+        "restaurant_name":"Spice Hub",
+        "city":"New York",
+        "cuisine":"Indian",
+        "rating":4.5,
+        "price_range":3
+    },
+    {
+        "restaurant_id":2,
+        "restaurant_name":"Ocean Delight",
+        "city":"Los Angeles",
+        "cuisine":"Seafood",
+        "rating":4.2,
+        "price_range":4
+    },
+    {
+        "restaurant_id":3,
+        "restaurant_name":"Pasta Palace",
+        "city":"Chicago",
+        "cuisine":"Italian",
+        "rating":4.0,
+        "price_range":2
+    },
+    {
+        "restaurant_id":4,
+        "restaurant_name":"Sushi World",
+        "city":"San Francisco",
+        "cuisine":"Japanese",
+        "rating":4.7,
+        "price_range":5
+    },
+    {
+        "restaurant_id":5,
+        "restaurant_name":"Taco Fiesta",
+        "city":"Austin",
+        "cuisine":"Mexican",
+        "rating":4.3,
+        "price_range":2
+    },
+    {
+        "restaurant_id":6,
+        "restaurant_name":"Burger Barn",
+        "city":"Dallas",
+        "cuisine":"American",
+        "rating":4.1,
+        "price_range":2
+    },
+    {
+        "restaurant_id":7,
+        "restaurant_name":"Curry Corner",
+        "city":"New York",
+        "cuisine":"Indian",
+        "rating":4.4,
+        "price_range":3
+    },
+    {
+        "restaurant_id":8,
+        "restaurant_name":"Noodle House",
+        "city":"Seattle",
+        "cuisine":"Chinese",
+        "rating":4.0,
+        "price_range":2
+    },
+    {
+        "restaurant_id":9,
+        "restaurant_name":"BBQ Nation",
+        "city":"Kansas City",
+        "cuisine":"BBQ",
+        "rating":4.6,
+        "price_range":3
+    },
+    {
+        "restaurant_id":10,
+        "restaurant_name":"Pizza Point",
+        "city":"Boston",
+        "cuisine":"Italian",
+        "rating":4.2,
+        "price_range":2
+    },
+    {
+        "restaurant_id":11,
+        "restaurant_name":"Vegan Vibes",
+        "city":"Portland",
+        "cuisine":"Vegan",
+        "rating":4.5,
+        "price_range":3
+    },
+    {
+        "restaurant_id":12,
+        "restaurant_name":"Sea Breeze",
+        "city":"Miami",
+        "cuisine":"Seafood",
+        "rating":4.1,
+        "price_range":4
+    },
+    {
+        "restaurant_id":13,
+        "restaurant_name":"Steak House",
+        "city":"Denver",
+        "cuisine":"American",
+        "rating":4.3,
+        "price_range":5
+    },
+    {
+        "restaurant_id":14,
+        "restaurant_name":"Ramen Spot",
+        "city":"San Jose",
+        "cuisine":"Japanese",
+        "rating":4.4,
+        "price_range":3
+    },
+    {
+        "restaurant_id":15,
+        "restaurant_name":"Kebab King",
+        "city":"Houston",
+        "cuisine":"Middle Eastern",
+        "rating":4.0,
+        "price_range":2
+    },
+    {
+        "restaurant_id":16,
+        "restaurant_name":"Dim Sum Garden",
+        "city":"San Mateo",
+        "cuisine":"Chinese",
+        "rating":4.2,
+        "price_range":3
+    },
+    {
+        "restaurant_id":17,
+        "restaurant_name":"French Feast",
+        "city":"Paris",
+        "cuisine":"French",
+        "rating":4.6,
+        "price_range":5
+    },
+    {
+        "restaurant_id":18,
+        "restaurant_name":"Tapas Bar",
+        "city":"Madrid",
+        "cuisine":"Spanish",
+        "rating":4.3,
+        "price_range":4
+    },
+    {
+        "restaurant_id":19,
+        "restaurant_name":"Greek Taverna",
+        "city":"Athens",
+        "cuisine":"Greek",
+        "rating":4.1,
+        "price_range":3
+    },
+    {
+        "restaurant_id":20,
+        "restaurant_name":"Thai Orchid",
+        "city":"Bangkok",
+        "cuisine":"Thai",
+        "rating":4.5,
+        "price_range":2
+    },
+    {
+        "restaurant_id":21,
+        "restaurant_name":"Korean Grill",
+        "city":"Seoul",
+        "cuisine":"Korean",
+        "rating":4.4,
+        "price_range":3
+    },
+    {
+        "restaurant_id":22,
+        "restaurant_name":"Biryani House",
+        "city":"Hyderabad",
+        "cuisine":"Indian",
+        "rating":4.6,
+        "price_range":2
+    },
+    {
+        "restaurant_id":23,
+        "restaurant_name":"Pho Corner",
+        "city":"Hanoi",
+        "cuisine":"Vietnamese",
+        "rating":4.3,
+        "price_range":2
+    },
+    {
+        "restaurant_id":24,
+        "restaurant_name":"Doner Stop",
+        "city":"Berlin",
+        "cuisine":"Turkish",
+        "rating":4.0,
+        "price_range":2
+    },
+    {
+        "restaurant_id":25,
+        "restaurant_name":"Cafe Roma",
+        "city":"Rome",
+        "cuisine":"Italian",
+        "rating":4.2,
+        "price_range":3
+    },
+    {
+        "restaurant_id":26,
+        "restaurant_name":"Paella Place",
+        "city":"Valencia",
+        "cuisine":"Spanish",
+        "rating":4.4,
+        "price_range":4
+    },
+    {
+        "restaurant_id":27,
+        "restaurant_name":"Peri Peri Grill",
+        "city":"Lisbon",
+        "cuisine":"Portuguese",
+        "rating":4.1,
+        "price_range":3
+    },
+    {
+        "restaurant_id":28,
+        "restaurant_name":"Falafel Hut",
+        "city":"Tel Aviv",
+        "cuisine":"Middle Eastern",
+        "rating":4.5,
+        "price_range":2
+    },
+    {
+        "restaurant_id":29,
+        "restaurant_name":"Chopstick Express",
+        "city":"Singapore",
+        "cuisine":"Chinese",
+        "rating":4.3,
+        "price_range":3
+    },
+    {
+        "restaurant_id":30,
+        "restaurant_name":"Island Flavors",
+        "city":"Honolulu",
+        "cuisine":"Hawaiian",
+        "rating":4.2,
+        "price_range":4
+    }
+]

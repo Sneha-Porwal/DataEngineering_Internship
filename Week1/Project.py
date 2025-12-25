@@ -1,26 +1,22 @@
 import requests
 import pandas as pd
 
-# Fetch posts
-posts = requests.get("https://dummyjson.com/posts").json()["posts"]
-
-# Fetch comments
-comments = requests.get("https://dummyjson.com/comments").json()["comments"]
+# Fetch data
+posts = pd.DataFrame(requests.get("https://dummyjson.com/posts").json()["posts"])
+comments = pd.DataFrame(requests.get("https://dummyjson.com/comments").json()["comments"])
 
 # Count comments per post
-count = {}
-for c in comments:
-    pid = c["postId"]
-    count[pid] = count.get(pid, 0) + 1
+comment_counts = comments.groupby("postId").size().reset_index(name="comment_count")
 
-# Prepare final data
-data = []
-for p in posts:
-    data.append([p["id"], p["title"], count.get(p["id"], 0)])
+# Merge posts with comment counts
+result = posts.merge(comment_counts, left_on="id", right_on="postId", how="left").fillna(0)
+
+# Keep only required columns
+result = result[["id", "title", "comment_count"]]
+result.rename(columns={"id": "post_id"}, inplace=True)
 
 # Save to CSV
-df = pd.DataFrame(data, columns=["post_id", "title", "comment_count"])
-df.to_csv("posts_with_comment_counts.csv", index=False)
+result.to_csv("posts_with_comment_counts.csv", index=False)
 
 print("posts_with_comment_counts.csv created")
-print(df)
+print(result)

@@ -1,6 +1,4 @@
-
 import pandas as pd
-
 # Create DataFrames
 df1 = pd.DataFrame({
     "id": [1, 2, 3],

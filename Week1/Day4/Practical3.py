@@ -3,15 +3,10 @@
 How to handle it in Python:
 
 1.Check the response status code after making a request
-
 2.If the API returns 429 Too Many Requests, it means you sent too many requests
-
 3.Pause your program for some time using time.sleep()
-
 4.Try the request again after waiting
-
 5.Use authentication (API key/token) to get higher limits
-
 '''
 
 import requests

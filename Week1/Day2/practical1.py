@@ -1,28 +1,23 @@
-import csv
-import json
+import pandas as pd
 
 class DataExtractor:
-    def read_csv(self, file_path):
-        data = []
-        with open(file_path, mode='r') as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                data.append(row)
-        return data
+    def read_csv(self, filename):
+        return pd.read_csv(filename)
 
-    def read_json(self, file_path):
-        with open(file_path, mode='r') as file:
-            data = json.load(file)
-        return data
+    def csv_to_json(self, data, json_file):
+        data.to_json(json_file, orient="records", indent=4)
+
+    def read_json(self, filename):
+        return pd.read_json(filename)
 
 
 # Object creation
 extractor = DataExtractor()
-
-# Correct file names
 csv_data = extractor.read_csv("restaurants.csv")
+extractor.csv_to_json(csv_data, "restaurants.json")
 json_data = extractor.read_json("restaurants.json")
 
+# Output
 print("CSV Data:")
 print(csv_data)
 
