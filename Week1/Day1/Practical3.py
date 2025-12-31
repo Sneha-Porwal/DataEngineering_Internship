@@ -13,7 +13,12 @@ if 40 in numbers_list:
 #Time Complexity:O(n) (Linear time)
 
 """ Set:
-A set uses hashing to find elements directly."""
+A set uses hashing to find elements directly.
+Hashing is a technique where:
+
+A value is passed to a hash function
+The function produces a hash value (number)
+That hash value is used to decide where the element is stored in memory"""
 
 numbers_set = {10, 20, 30, 40, 50}
 

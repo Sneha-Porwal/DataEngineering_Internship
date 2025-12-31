@@ -1,7 +1,7 @@
 import time
 def time_logger(func):
     def wrapper():
-        start = time.time()
+        start = time.time()   #record the current start time
         func()
         end = time.time()
         print("Execution Time:", end - start)
@@ -15,6 +15,5 @@ def func():
         print("Positive")
     else:
         print("Non-positive")
-
 
 func()

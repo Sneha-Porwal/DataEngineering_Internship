@@ -1,5 +1,3 @@
-#Create a pivot table to summarize sales data by region and product category.
-
 import pandas as pd
 data = {
     "Region": ["North", "North", "South", "South", "East", "West"],
@@ -13,8 +11,8 @@ pivot_table = pd.pivot_table(
     df,
     values="Sales",
     index="Region",
-    columns="Product",
     aggfunc="sum"
 )
 
 print(pivot_table)
+
