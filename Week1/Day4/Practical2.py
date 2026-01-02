@@ -7,5 +7,5 @@ params = {
 
 response = requests.get(url, params=params)
 
-print(response.url)   # shows full URL with parameters
+print(response.url)   
 print(response.json())

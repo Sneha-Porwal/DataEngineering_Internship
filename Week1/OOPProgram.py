@@ -44,7 +44,6 @@ class Calculator:
     def add(self, a, b=0):
         return a + b
 
-
 # Object Creation
 s1 = Student("Sita Soni", 20, 80)
 s2 = Student("Aman Jain", 22, 90)
@@ -56,7 +55,6 @@ print(t1.name, "is a", t1.get_role())
 # Encapsulation
 print("Country:", s1.get_country())
 
-# Magic method
 print("Length of name:", len(s1))   
 
 # Method overloading
