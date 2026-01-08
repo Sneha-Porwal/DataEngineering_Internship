@@ -1,0 +1,31 @@
+restaurant_id,restaurant_name,city,cuisine,rating,price_range
+1,Spice Hub,New York,Indian,4.5,3
+2,Ocean Delight,Los Angeles,Seafood,4.2,4
+3,Pasta Palace,Chicago,Italian,4.0,2
+4,Sushi World,San Francisco,Japanese,4.7,5
+5,Taco Fiesta,Austin,Mexican,4.3,2
+6,Burger Barn,Dallas,American,4.1,2
+7,Curry Corner,New York,Indian,4.4,3
+8,Noodle House,Seattle,Chinese,4.0,2
+9,BBQ Nation,Kansas City,BBQ,4.6,3
+10,Pizza Point,Boston,Italian,4.2,2
+11,Vegan Vibes,Portland,Vegan,4.5,3
+12,Sea Breeze,Miami,Seafood,4.1,4
+13,Steak House,Denver,American,4.3,5
+14,Ramen Spot,San Jose,Japanese,4.4,3
+15,Kebab King,Houston,Middle Eastern,4.0,2
+16,Dim Sum Garden,San Mateo,Chinese,4.2,3
+17,French Feast,Paris,French,4.6,5
+18,Tapas Bar,Madrid,Spanish,4.3,4
+19,Greek Taverna,Athens,Greek,4.1,3
+20,Thai Orchid,Bangkok,Thai,4.5,2
+21,Korean Grill,Seoul,Korean,4.4,3
+22,Biryani House,Hyderabad,Indian,4.6,2
+23,Pho Corner,Hanoi,Vietnamese,4.3,2
+24,Doner Stop,Berlin,Turkish,4.0,2
+25,Cafe Roma,Rome,Italian,4.2,3
+26,Paella Place,Valencia,Spanish,4.4,4
+27,Peri Peri Grill,Lisbon,Portuguese,4.1,3
+28,Falafel Hut,Tel Aviv,Middle Eastern,4.5,2
+29,Chopstick Express,Singapore,Chinese,4.3,3
+30,Island Flavors,Honolulu,Hawaiian,4.2,4

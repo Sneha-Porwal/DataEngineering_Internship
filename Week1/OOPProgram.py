@@ -1,6 +1,4 @@
 from abc import ABC, abstractmethod   # ABC -> base class for abstract classes
-
-
 # Abstract Base Class (ABC)
 class Person(ABC):
     def __init__(self, name, age):
